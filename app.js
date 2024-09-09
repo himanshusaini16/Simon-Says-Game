@@ -4,7 +4,7 @@ const path=require("path");
 const ejsMate = require("ejs-mate");
 
 const app=express();
-const port=3000;
+const port=8000;
 
 app.listen(port,()=>{
     console.log(`listen to port number ${port}`);
